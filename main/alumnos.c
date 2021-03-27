@@ -31,53 +31,5 @@ int afegir_alumne (nif, alumne, data) {
   printf("Sexe (home [0], dona [1] o no vull dir-ho [2]): ");
   scanf("%d ",&alumne.sexe);
 
-}
-
-/* MAIN: TEST list functions */
-int main() {
-	node_t *list;
-	data_t data;
-
-	/* Initialize list to empty */
-	list_init(&list);
-
-
-
-	
-
-
-	printf("\nList size: %d\n", list_size(list)); /* List size: 0 */
-	printf("List: ");  list_to_string(list); printf("\n"); /* List: ( ) */
-
-	/* Insert at front */
-	list_add_first(&list, 0);
-	list_add_first(&list, 1);
-
-	printf("\nList size: %d\n", list_size(list)); /* List size: 2 */
-	printf("List: ");  list_to_string(list); printf("\n"); /* List: ( 1 0 ) */
-
-	/* Insert at back */
-	list_add_last(&list, 2);
-	list_add_last(&list, 3);
-	list_add_last(&list, 4);
-
-	printf("\nList size: %d\n", list_size(list)); /* List size: 5 */
-	printf("List: ");  list_to_string(list); printf("\n"); /* List: ( 1 0 2 3 4 ) */
-
-	/* Remove from front */
-	data = list_remove_first(&list);
-	data = list_remove_first(&list);
-	data = list_remove_first(&list);
-
-	printf("\nList size: %d\n", list_size(list)); /* List size: 2 */
-	printf("List: ");  list_to_string(list); printf("\n"); /* List: ( 3 4 ) */
-	printf("Last element removed: %d\n", data); /* Last element removed: 2 */
-
-	/* Remove from back */
-	data = list_remove_last(&list);
-	data = list_remove_last(&list);
-
-	printf("\nList size: %d\n", list_size(list)); /* List size: 0 */
-	printf("List: ");  list_to_string(list); printf("\n"); /* List: ( ) */
-	printf("Last element removed: %d\n", data); /* Last element removed: 3 */
+  return 
 }
