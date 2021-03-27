@@ -36,7 +36,6 @@ int main() {
         printf("[3] - Buscar per nom\n");
 				printf("[4] - Veure últim alumne bsucat\n")
         printf("[5] - Eliminar últim alumne buscat\n");
-
 				printf("[0] - Sortir\n");
         scanf("%d", &opcion);
 				 
