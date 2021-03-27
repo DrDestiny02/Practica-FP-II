@@ -6,7 +6,8 @@
 #include "alumnos.h"
 
 /* Función para añadir un alumno */
-int afegir_alumne (nif, alumne, data) {
+int afegir_alumne (nif, alumne, data)
+{
   
   printf("Nom de l'alumne: ");
   scanf("%c ",&alumne.nom);
@@ -31,5 +32,5 @@ int afegir_alumne (nif, alumne, data) {
   printf("Sexe (home [0], dona [1] o no vull dir-ho [2]): ");
   scanf("%d ",&alumne.sexe);
 
-  return 
+  return
 }

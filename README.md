@@ -1,6 +1,6 @@
 # Practica-FP-II
 
-Paractiac de FP II
-https://codesandbox.io/s/blissful-euclid-wd6zy
+https://codesandbox.io/s/cool-allen-mymk0?file=/README.md
 
-
+27/03/21
+[]
